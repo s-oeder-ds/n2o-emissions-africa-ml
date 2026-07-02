@@ -1,4 +1,0 @@
-New-Item -ItemType File -Force data\raw\.gitkeep
-New-Item -ItemType File -Force data\interim\.gitkeep
-New-Item -ItemType File -Force data\processed\.gitkeep
-New-Item -ItemType File -Force data\external\.gitkeep

@@ -1,53 +1,42 @@
-# Python-generated files
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.eggs/
-build/
-dist/
-wheels/
-
 # Virtual environments
 .venv/
-venv/
-env/
+
+# Python cache
+__pycache__/
+*.py[cod]
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data directories
-data/raw/
-data/interim/
-data/processed/
-data/external/
+# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
 
-# Large or generated data files
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Common generated data formats
 *.csv
 *.tsv
+*.tab
 *.txt
-*.xlsx
-*.xls
 *.parquet
-*.feather
+*.xlsx
 *.zip
 *.gz
+# Extra generated data formats
+*.tab
 
-# Reports and generated figures
-reports/figures/
-reports/generated/
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# OS/editor files
-.DS_Store
-Thumbs.db
+# Editor / OS
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
-logs/

@@ -78,9 +78,9 @@ Da in den aktuellen Spaltennamen nicht jede Tiefe explizit enthalten ist, sollte
 
 ## Mögliche saubere Spaltennamen
 
-Für die spätere Modellierung könnten die Spalten in ein einheitliches `snake_case`-Format überführt werden:
+Für die spätere Modellierung sollten die Spalten in ein einheitliches `snake_case`-Format überführt werden:
 
-| Originalspalte | Vorschlag für neuen Spaltennamen |
+| Originalspalte | Neuen Spaltennamen |
 |---|---|
 | `Event` | `event` |
 | `Latitude` | `latitude` |

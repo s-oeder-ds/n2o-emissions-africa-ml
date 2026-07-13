@@ -39,13 +39,8 @@ Typical contents:
 - relationship checks between features and N₂O flux,
 - preparation of findings for model building.
 
-## Planned Notebook
+## 4. `n2o_xgboost_modelbuildungv.ipynb`
 
-A model-building notebook should be added later, for example:
+Main ...
 
-```text
-xgboost_model.ipynb
-```
-
-This notebook should contain the baseline model, XGBoost model, evaluation metrics,
-residual diagnostics, and feature importance analysis.
+ - ...
